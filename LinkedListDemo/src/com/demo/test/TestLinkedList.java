@@ -11,9 +11,14 @@ public class TestLinkedList {
 		mylist.addNode(3);
 		mylist.addNode(5);
 		mylist.displaydata();
-		System.out.println("\n--------------------\n");
+		
 		mylist.addNodebyposition(100, 1);
         mylist.addNodebyposition(200, 3); 
+        mylist.displaydata();
+        
+        mylist.deleteNodeByPos(1);
+        mylist.displaydata();
+        mylist.deleteNodeByPos(3);
         mylist.displaydata();
 	}
 
