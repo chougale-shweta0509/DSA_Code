@@ -26,14 +26,13 @@ public class ArrayService {
 			if(arr[i]==num) {
 				return i;
 			}
-			
 		}
 		return -1;
 		
 	}
 
 	public static int binarySearch(int[] arr, int low, int high, int num) {
-		if(low<=high) {     
+		if(low<=high) {
 			int mid=(low+high)/2;
 			if(arr[mid]==num) {
 				return mid;

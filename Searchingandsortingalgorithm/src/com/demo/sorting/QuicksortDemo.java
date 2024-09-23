@@ -12,7 +12,8 @@ public class QuicksortDemo {
 		
 	}
 
-	public static void displayData(int[] arr) {
+	public static void 	
+	displayData(int[] arr) {
 		for(int i=0;i<arr.length;i++) {
 			System.out.println(arr[i]);
 		}
@@ -29,24 +30,21 @@ public class QuicksortDemo {
 		}
 	}
    /// 2 1 3 4 5 7 12 6
-	private static int partition(int[] arr, int first, int last) 
-	{
-		int pivot=first;   //
+	private static int partition(int[] arr, int first, int last) {
+		int pivot=first;
 		int i=first;
 		int j=last;
-		while(i<j) 
-		{
-			while(i<last && arr[i]<=arr[pivot])
-				i++;
-			while(j>pivot && arr[j]>arr[pivot])
-				j--;
-			if(i<j) 
-			{
-				//swapping values at i and j position
-				int temp=arr[i];
-				arr[i]=arr[j];
-				arr[j]=temp;
-			}
+		while(i<j) {
+		while(i<last && arr[i]<=arr[pivot])
+			i++;
+		while(j>pivot && arr[j]>arr[pivot])
+			j--;
+		if(i<j) {
+			//swapping values at i and j position
+			int temp=arr[i];
+			arr[i]=arr[j];
+			arr[j]=temp;
+		}
 		}
 		//swap j and pivot
 		int temp=arr[j];

@@ -16,7 +16,7 @@ public class TestSearching {
 		int num=sc.nextInt();
 		if (choice==1) { //sequential search
 				int pos=ArrayService.searchNumber(num,arr);
-				if(ps!=-1) {
+				if(pos!=-1) {
 					System.out.println(num+" found at "+pos+" position");
 				}else {
 					System.out.println("not found");
