@@ -20,7 +20,7 @@ public class MergesortDemo {
 		
 	}
 
-vf	public static void mergesort(int[] arr, int start, int end) {
+	public static void mergesort(int[] arr, int start, int end) {
 		if(start<end) {
 			int mid=(start+end)/2;
 			System.out.println("left tree start: "+start+" end : "+mid);

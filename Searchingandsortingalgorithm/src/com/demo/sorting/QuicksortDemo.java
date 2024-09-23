@@ -12,8 +12,7 @@ public class QuicksortDemo {
 		
 	}
 
-	public static void 	
-	displayData(int[] arr) {
+	public static void displayData(int[] arr) {
 		for(int i=0;i<arr.length;i++) {
 			System.out.println(arr[i]);
 		}

@@ -1,5 +1,4 @@
-
-+package com.demo.sorting;
+package com.demo.sorting;
 
 import java.util.Scanner;
 
